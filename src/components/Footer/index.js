@@ -15,8 +15,8 @@ function Footer() {
             </h2>
             <address>
               Astrobyte - Escola Técnica Profissionalizante LTDA.
-              <br/>CNPJ: 04.319.078/0001-24
-
+              <br />
+              CNPJ: 04.319.078/0001-24
             </address>
             <h2>Endereço</h2>
             <address>
@@ -81,13 +81,13 @@ function Footer() {
               <h2 className="nav__title">Legal</h2>
               <ul className="nav__ul">
                 <li>
-                  <a href="https://google.com" disabled>
+                  <a href="/termo-de-politica-e-privacidade.html" >
                     Política de Privacidade
                   </a>
                 </li>
 
                 <li>
-                  <a href="https://google.com" disabled>
+                  <a href="/termo-de-servico.html">
                     Termos de Uso
                   </a>
                 </li>
@@ -104,7 +104,7 @@ function Footer() {
           <div className="legal">
             <div className="legal__links">
               <span>
-                Developed by: {"\u003c\u003e"} The Simple TECH{" "}
+                Developed by: {"\u003c\u003e"} The Simple TECH
                 {"\u003c\u002f\u003e"}
               </span>
             </div>
