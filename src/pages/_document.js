@@ -32,11 +32,9 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
 
+          <title>Astrobyte - Centro de Treinamento</title>
           <meta name="title" content="Astrobyte - Centro de Treinamento" />
-          <meta
-            name="description"
-            content="Astrobyte, cursos profissionalizantes que capacitam você a entrar no mercado de trabalho. Comece já sua jornada."
-          />
+          <meta name="description" content="Astrobyte, cursos profissionalizantes que capacitam você a entrar no mercado de trabalho. Comece já sua jornada." />
 
           <link
             rel="apple-touch-icon"

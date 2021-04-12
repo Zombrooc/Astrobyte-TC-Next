@@ -1,9 +1,9 @@
 {
-  "name": "The Simple - Soluções em Técnologia",
-  "short_name": "The Simple",
+  "name": "Astrobyte - Centro de Treinamento",
+  "short_name": "Astrobyte",
   "theme_color": "#1e73be",
   "background_color": "#1e73be",
-  "start_url": "https://astrobyte-tc.vercel.app/",
+  "start_url": "https://astrobytetc.com.br/",
   "display": "fullscreen",
   "orientation": "portrait",
   "icons": [

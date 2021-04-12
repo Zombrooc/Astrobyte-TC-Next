@@ -55,7 +55,6 @@ export const Container = styled.div`
       top: 0;
       left: 0;
       line-height: 80px;
-      /* -webkit-background-clip: text; */
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       transition: background 0.5s linear;
