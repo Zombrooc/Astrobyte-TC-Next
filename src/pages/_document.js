@@ -32,48 +32,12 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
 
-          {/* Primary Meta Tags */}
-          <meta name="title" content="The Simple" />
+          <meta name="title" content="Astrobyte - Centro de Treinamento" />
           <meta
             name="description"
-            content="The Simple Network - Uma maneira simples de solucionar seus  problemas com informática."
+            content="Astrobyte, cursos profissionalizantes que capacitam você a entrar no mercado de trabalho. Comece já sua jornada."
           />
 
-          {/* Open Graph / Facebook */}
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.thesimple.ga/" />
-          <meta property="og:title" content="The Simple" />
-          <meta
-            property="og:description"
-            content="The Simple Network - Uma maneira simples de solucionar seus  problemas com informática."
-          />
-          <meta
-            property="og:image"
-            content="https://thesimple.ga/images/banner.png"
-          />
-
-          {/* Twitter */}
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://www.thesimple.ga/" />
-          <meta property="twitter:title" content="The Simple" />
-          <meta
-            property="twitter:description"
-            content="The Simple Network - Uma maneira simples de solucionar seus  problemas com informática."
-          />
-          <meta
-            property="twitter:image"
-            content="https://thesimple.ga/images/banner.png"
-          />
-
-          <meta name="robots" content="index, follow" />
-          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta name="language" content="Portuguese" />
-          <meta name="revisit-after" content="7 days" />
-          <meta name="author" content="The Simple TECH" />
-
-          <meta name="theme-color" content="#2e2e2e" />
-          <link rel="manifest" href="/manifest.webmanifest" />
-          <link rel="shortcut icon" href="/images/favicon.ico" />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -103,21 +67,70 @@ export default class MyDocument extends Document {
             sizes="16x16"
             href="/images/favicon-16x16.png"
           />
+          <link rel="manifest" href="/manifest.webmanifest" />
           <link
             rel="mask-icon"
             href="/images/safari-pinned-tab.svg"
-            color="#2e2e2e"
+            color="#1e73be"
           />
-          <meta name="msapplication-config" content="/browserconfig.xml" />
-          <meta name="msapplication-TileColor" content="#2e2e2e" />
+          <link rel="shortcut icon" href="/images/favicon.ico" />
+          <meta name="msapplication-TileColor" content="#2d89ef" />
           <meta
             name="msapplication-TileImage"
             content="/images/mstile-144x144.png"
+          />
+          <meta name="msapplication-config" content="/browserconfig.xml" />
+
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://astrobytetc.com.br/" />
+          <meta
+            property="og:title"
+            content="Astrobyte - Centro de Treinamento"
+          />
+          <meta
+            property="og:description"
+            content="Astrobyte, cursos profissionalizantes que capacitam você a entrar no mercado de trabalho. Comece já sua jornada."
+          />
+          <meta
+            property="og:image"
+            content="https://astrobyte-tc.vercel.app/images/Astrobyte%20-%20Banner.jpg"
+          />
+
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://astrobytetc.com.br/" />
+          <meta
+            property="twitter:title"
+            content="Astrobyte - Centro de Treinamento"
+          />
+          <meta
+            property="twitter:description"
+            content="Astrobyte, cursos profissionalizantes que capacitam você a entrar no mercado de trabalho. Comece já sua jornada."
+          />
+          <meta
+            property="twitter:image"
+            content="https://astrobyte-tc.vercel.app/images/Astrobyte%20-%20Banner.jpg"
+          />
+          <meta name="theme-color" content="#1e73be" />
+
+          <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
           />
         </Head>
         <body>
           <Main />
           <NextScript />
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossOrigin="anonymous"
+          ></script>
         </body>
       </Html>
     );

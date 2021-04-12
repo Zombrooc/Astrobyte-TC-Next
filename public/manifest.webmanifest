@@ -1,25 +1,11 @@
 {
   "name": "The Simple - Soluções em Técnologia",
   "short_name": "The Simple",
-  "theme_color": "#2e2e2e",
-  "background_color": "#2e2e2e",
-  "start_url": "/",
+  "theme_color": "#1e73be",
+  "background_color": "#1e73be",
+  "start_url": "https://astrobyte-tc.vercel.app/",
   "display": "fullscreen",
   "orientation": "portrait",
-  "shortcuts": [
-    {
-      "name": "The Simple - Assistência Técnica",
-      "short_name": "Solicitar Reparo",
-      "description": "Solicite reparos e suporte técnico de maneira imediata",
-      "url": "/request-assistence",
-      "icons": [
-        {
-          "src": "/images/android-chrome-192x192.png",
-          "sizes": "192x192"
-        }
-      ]
-    }
-  ],
   "icons": [
     {
       "src": "/images/android-chrome-36x36.png",

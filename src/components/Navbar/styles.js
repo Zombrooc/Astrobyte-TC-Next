@@ -2,23 +2,26 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   width: 100%;
-  height: 65px;
-  background: var(--color-dark);
+  height: 72px;
+  background: var(--color-light);
   display: flex;
+  align-items: center;
+  font-family: "Nunito", sans-serif !important;
 
   z-index: 4444;
 
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 `;
 
 export const Container = styled.div`
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0.5rem 7rem;
+  margin: 0.5rem 5rem;
   flex-wrap: wrap;
   overflow: hidden;
 
@@ -27,44 +30,27 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 400px) {
-    margin: 0.1rem 0.5rem;
+    margin: 0.1rem 1rem;
   }
 `;
 
 export const Title = styled.div`
-  font-style: italic;
-  font-size: 1.5rem;
-  font-weight: 100;
-
-  a {
-    color: var(--color-light);
-  }
-
-  p {
-    margin: 0 !important;
-    line-height: 0 !important;
-  }
-
-  @media screen and (max-width: 961px) {
-    width: 50%;
-  }
-
-  @media screen and (max-width: 340px) {
-    font-size: 1.2rem;
-  }
+  padding-top: 5px;
+  flex: 1;
 `;
 
 export const Menu = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex: 1;
 
   @media screen and (max-width: 960px) {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: ${(props) => (props.isOpen ? "100vw" : "0")};
@@ -74,8 +60,8 @@ export const Menu = styled.div`
     overflow: hidden;
 
     a {
-      color: #fff;
-    }
+      color: var(--color-light);
+    }   
   }
 `;
 
@@ -83,69 +69,48 @@ export const MenuItem = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 700 !important;
-
-  &:not(:first-child) {
-    margin-left: 15px;
-  }
 
   a,
   button {
-    font-weight: 500;
+    font-weight: 600;
     border: none;
     text-transform: uppercase;
     padding: 1rem 2.5rem;
     background-color: transparent;
-    transform: 0.5s;
+    transform: background-color 0.5s;
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    color: var(--color-light);
-    font-size: 0.8rem;
+    font-size: 11px;
+    text-decoration: none;
 
-    &:hover:not(.active) {
+    button:hover {
       color: #fff;
     }
 
     &.active {
       background-color: var(--color-danger);
-      transition: 0.5s;
+      transition: 0.3s;
       color: var(--color-light) !important;
       border-radius: 7px;
-      border: 1px solid var(--color-danger);
 
       &:hover {
-        background: transparent;
+        background-color: var(--color-danger);
       }
-    }
-  }
-
-  @media screen and (max-width: 961px) {
-    &:not(:first-child) {
-      margin-top: 15px;
     }
   }
 `;
 
 export const ToggleButton = styled.div`
   font-size: 35px;
-  color: var(--color-light) !important;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 50%;
+  /* width: 50%; */
   cursor: pointer;
 
   @media screen and (min-width: 960px) {
     display: none !important;
-  }
-
-  @media screen and (max-width: 630px) {
-    font-size: 3rem;
-  }
-
-  @media screen and (max-width: 340px) {
-    font-size: 2rem;
   }
 `;
 
