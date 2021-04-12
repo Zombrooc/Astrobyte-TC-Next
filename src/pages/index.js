@@ -40,7 +40,7 @@ export default function Home() {
 
       <MainBlock>
         <Title className="Left-Side">
-          <h1> A única jornada impossível é aquela que você nunca começa </h1>
+          <h2> A única jornada impossível é aquela que você nunca começa </h2>
           <p>
             Conheça nossa escola e inicie sua jornada no mercado de trabalho com
             o melhor do ensino profissionalizante

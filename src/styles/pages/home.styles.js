@@ -12,7 +12,7 @@ export const Title = styled.div`
   flex-direction: column;
   color: var(--color-light);
 
-  h1 {
+  h2 {
     text-transform: uppercase;
   }
 

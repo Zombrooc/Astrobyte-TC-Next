@@ -10,9 +10,9 @@ function Footer() {
       <Container>
         <footer className="footer">
           <div className="footer__addr">
-            <h1 className="footer__logo">
+            <h2 className="footer__logo">
               <img src={AstrobyteLogo} alt="Astrobyte Logo" />
-            </h1>
+            </h2>
             <address>
               Astrobyte - Escola Técnica Profissionalizante LTDA.
               <br/>CNPJ: 04.319.078/0001-24
