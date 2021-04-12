@@ -60,7 +60,7 @@ function Navbar(){
             </ScrollLink>
           </MenuItem>
           <MenuItem>
-            <Link href="/entre-em-contato">
+            <Link href="/contact">
               <a>Contato</a>
             </Link>
           </MenuItem>
