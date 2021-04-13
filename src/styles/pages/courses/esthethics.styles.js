@@ -1,8 +1,10 @@
+import styled from "styled-components";
+
 export const Container = styled.div`
   padding: 50px;
   padding-top: 120px;
 
-  font-family: Roboto;
+  font-family: Nunito;
   font-weight: 400;
 
   h1 {
