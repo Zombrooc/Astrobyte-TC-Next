@@ -71,7 +71,7 @@ export default function Home() {
 
         <Courses>
           <CourseItem gridArea="FirstCourse">
-            <Link href="/cursos/informatica">
+            <Link href="/courses/technology">
               <a>
                 <FaTerminal />
                 <span> Informática </span>
@@ -79,7 +79,7 @@ export default function Home() {
             </Link>
           </CourseItem>
           <CourseItem gridArea="SecondCourse">
-            <Link href="/">
+            <Link href="/courses/health">
               <a>
                 <FaPills />
                 <span>Atendente de Farmácia </span>
@@ -87,7 +87,7 @@ export default function Home() {
             </Link>
           </CourseItem>
           <CourseItem gridArea="ThirdCourse">
-            <Link href="/">
+            <Link href="/courses/industry">
               <a>
                 <FaBolt />
                 <span> Elétrica </span>
@@ -95,7 +95,7 @@ export default function Home() {
             </Link>
           </CourseItem>
           <CourseItem gridArea="FourthyCourse">
-            <Link href="/">
+            <Link href="/courses/health">
               <a>
                 <FaVials />
                 <span> Auxiliar de Análises Laboratoriais </span>
@@ -103,7 +103,7 @@ export default function Home() {
             </Link>
           </CourseItem>
           <CourseItem gridArea="FiftyCourse">
-            <Link href="/">
+            <Link href="/courses/industry">
               <a>
                 <FaHardHat />
                 <span> Normas Regulamentadoras </span>
@@ -111,7 +111,7 @@ export default function Home() {
             </Link>
           </CourseItem>
           <CourseItem gridArea="SixthyCourse">
-            <Link href="/">
+            <Link href="/courses/industry">
               <a>
                 <FaTools />
                 <span> Eletromecânica </span>
@@ -135,43 +135,43 @@ export default function Home() {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <Card.Body>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Informática Básica </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Informática Avançada </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Informática Básica + Avançada </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>CorelDraw </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Excel </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Excel Avançado </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Internet </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Photoshop </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>PowerPoint </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Windows </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Word </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Terceira Idade </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/technology">
                   <a>Digitação </a>
                 </Link>
               </Card.Body>
@@ -187,37 +187,37 @@ export default function Home() {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Auto Maquiagem</a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Cab. Masculino</a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Cab. Feminino</a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Depilação</a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Design de Sobrancelhas</a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Desenho Masculino</a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Limpeza de Pele</a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Manicure com Decoração</a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Maquiagem</a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Massagem</a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/esthethics">
                   <a>Unha em gel Acrigel</a>
                 </Link>
               </Card.Body>
@@ -233,37 +233,37 @@ export default function Home() {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="2">
               <Card.Body>
-                <Link href="/">
+                <Link href="/courses/industry">
                   <a> Operador de Empilhadeira </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/industry">
                   <a> Elétrica Residencial + Industrial + NR10 + NR35 </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/industry">
                   <a> Elétrica Industrial + NR10 </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/industry">
                   <a> Elétrica Industrial + Res </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/industry">
                   <a> Elétrica Residencial </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/industry">
                   <a>
                     Eletromecânica 4x1 + Metrologia + Mecânica + Elétrica
                     Industrial + NR35
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/industry">
                   <a> Metrologia + Mecânica </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/industry">
                   <a> NR10 </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/industry">
                   <a> NR35 </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/industry">
                   <a> Pá Carregadeira + Retro </a>
                 </Link>
               </Card.Body>
@@ -279,19 +279,19 @@ export default function Home() {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="3">
               <Card.Body>
-                <Link href="/">
+                <Link href="/courses/health">
                   <a>Atendente de Farmácia </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/health">
                   <a>Auxiliar de Saúde Bucal </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/health">
                   <a>Cuidador de Idosos </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/health">
                   <a>Lab. de Análises Clínicas </a>
                 </Link>
-                <Link href="/">
+                <Link href="/courses/health">
                   <a>Manipulação </a>
                 </Link>
               </Card.Body>
