@@ -3,6 +3,7 @@ import Head from "next/head";
 import axios from "axios";
 
 import Navbar from "../components/Navbar";
+import Footer from '../components/Footer';
 
 import { Container, SuccessMessage } from "../styles/pages/contact.styles.js";
 
@@ -10,6 +11,7 @@ function ContactPage() {
   const [contactFormData, setContactFormData] = useState({
     name: "",
     email: "",
+    whatsapp: "",
     message: "",
   });
 
@@ -131,6 +133,7 @@ function ContactPage() {
           </a>
         </div>
       </Container>
+      <Footer/>
     </>
   );
 }

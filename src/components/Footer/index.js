@@ -104,7 +104,7 @@ function Footer() {
           <div className="legal">
             <div className="legal__links">
               <span>
-                Developed by: Astrobyte and <a href="https://thesimple.ga/" style={{textDecoration: 'underline'}}>{"\u003c\u003e"} The Simple TECH
+                Developed by: Astrobyte and <a href="https://thesimpletech.com.br/" style={{textDecoration: 'underline'}}>{"\u003c\u003e"} The Simple TECH
                 {"\u003c\u002f\u003e"}</a>
               </span>
             </div>
