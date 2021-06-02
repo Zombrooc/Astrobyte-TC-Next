@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Link from 'next/link';
+import Link from "next/link";
 import {
   FaUser,
   FaAward,
@@ -12,13 +12,18 @@ import {
   FaHardHat,
   FaTools,
 } from "react-icons/fa";
-import { Accordion, Card } from "react-bootstrap";
+
 import { Link as ScrollLink } from "react-scroll";
 
-import Navbar from '../components/Navbar';
+import office from "../assets/office.svg";
+import heart from "../assets/heart.svg";
+import factory from "../assets/factory.svg";
+
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 import {
+  CourseCard,
   MainBlock,
   Title,
   Achivements,
@@ -124,180 +129,149 @@ export default function Home() {
         <BlockTitle>
           <span> Nossos Cursos </span>
         </BlockTitle>
-        <Accordion className="coursesAccordion">
-          <Card>
-            <Accordion.Toggle
-              as={Card.Header}
-              eventKey="0"
-              style={{ cursor: "pointer" }}
-            >
-              Informática
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="0">
-              <Card.Body>
-                <Link href="/courses/technology">
-                  <a>Informática Básica </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>Informática Avançada </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>Informática Básica + Avançada </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>CorelDraw </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>Excel </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>Excel Avançado </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>Internet </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>Photoshop </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>PowerPoint </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>Windows </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>Word </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>Terceira Idade </a>
-                </Link>
-                <Link href="/courses/technology">
-                  <a>Digitação </a>
-                </Link>
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle
-              as={Card.Header}
-              eventKey="1"
-              style={{ cursor: "pointer" }}
-            >
-              Estética
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="1">
-              <Card.Body>
-                <Link href="/courses/esthethics">
-                  <a>Auto Maquiagem</a>
-                </Link>
-                <Link href="/courses/esthethics">
-                  <a>Cab. Masculino</a>
-                </Link>
-                <Link href="/courses/esthethics">
-                  <a>Cab. Feminino</a>
-                </Link>
-                <Link href="/courses/esthethics">
-                  <a>Depilação</a>
-                </Link>
-                <Link href="/courses/esthethics">
-                  <a>Design de Sobrancelhas</a>
-                </Link>
-                <Link href="/courses/esthethics">
-                  <a>Desenho Masculino</a>
-                </Link>
-                <Link href="/courses/esthethics">
-                  <a>Limpeza de Pele</a>
-                </Link>
-                <Link href="/courses/esthethics">
-                  <a>Manicure com Decoração</a>
-                </Link>
-                <Link href="/courses/esthethics">
-                  <a>Maquiagem</a>
-                </Link>
-                <Link href="/courses/esthethics">
-                  <a>Massagem</a>
-                </Link>
-                <Link href="/courses/esthethics">
-                  <a>Unha em gel Acrigel</a>
-                </Link>
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle
-              as={Card.Header}
-              eventKey="2"
-              style={{ cursor: "pointer" }}
-            >
-              Industria
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="2">
-              <Card.Body>
-                <Link href="/courses/industry">
-                  <a> Operador de Empilhadeira </a>
-                </Link>
-                <Link href="/courses/industry">
-                  <a> Elétrica Residencial + Industrial + NR10 + NR35 </a>
-                </Link>
-                <Link href="/courses/industry">
-                  <a> Elétrica Industrial + NR10 </a>
-                </Link>
-                <Link href="/courses/industry">
-                  <a> Elétrica Industrial + Res </a>
-                </Link>
-                <Link href="/courses/industry">
-                  <a> Elétrica Residencial </a>
-                </Link>
-                <Link href="/courses/industry">
-                  <a>
-                    Eletromecânica 4x1 + Metrologia + Mecânica + Elétrica
-                    Industrial + NR35
-                  </a>
-                </Link>
-                <Link href="/courses/industry">
-                  <a> Metrologia + Mecânica </a>
-                </Link>
-                <Link href="/courses/industry">
-                  <a> NR10 </a>
-                </Link>
-                <Link href="/courses/industry">
-                  <a> NR35 </a>
-                </Link>
-                <Link href="/courses/industry">
-                  <a> Pá Carregadeira + Retro </a>
-                </Link>
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle
-              as={Card.Header}
-              eventKey="3"
-              style={{ cursor: "pointer" }}
-            >
-              Saúde
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="3">
-              <Card.Body>
-                <Link href="/courses/health">
-                  <a>Atendente de Farmácia </a>
-                </Link>
-                <Link href="/courses/health">
-                  <a>Auxiliar de Saúde Bucal </a>
-                </Link>
-                <Link href="/courses/health">
-                  <a>Cuidador de Idosos </a>
-                </Link>
-                <Link href="/courses/health">
-                  <a>Lab. de Análises Clínicas </a>
-                </Link>
-                <Link href="/courses/health">
-                  <a>Manipulação </a>
-                </Link>
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-        </Accordion>
+
+        <CourseCard>
+          <div>
+            <div>
+              <h2> Informática </h2>
+              <p>
+                Para que um computador atenda com eficiência às necessidades
+                básicas dos usuários, é essencial aprender a usar um pacote de
+                programas. Os cursos de informática fornecem recursos básicos e
+                avançados de uma forma muito educacional, permitindo que você
+                use sistemas operacionais, crie documentos e monte planilhas
+                inteligentes.
+              </p>
+              <br />
+            </div>
+            <div className="image">
+              <img src={office} alt="Microsoft Office" />
+            </div>
+          </div>
+        </CourseCard>
+        <CourseCard>
+          <div>
+            <div className="image">
+              <img src={heart} alt="Coração" />
+            </div>
+            <div>
+              <h2> Saúde </h2>
+              <p>
+                O mercado de trabalho dos profissionais de saúde continua em
+                expansão graças ao surgimento de novos exames, diagnósticos,
+                medicamentos, tratamentos, clínicas e hospitais. Portanto, se
+                você está interessado nesta área, saiba que pode escolher um
+                curso no qual você pode lidar com atendimento direto ao
+                paciente, gestão, ensino, pesquisa ou empreendedorismo nesta
+                área.
+              </p>
+              <br />
+            </div>
+          </div>
+        </CourseCard>
+        <CourseCard>
+          <div>
+            <div>
+              <h2> Industria </h2>
+              <p>
+                Quem deseja ingressar rapidamente no mercado de trabalho
+                encontra alternativas interessantes com o auxílio de cursos de
+                qualificação profissional. Nossos cursos têm como objetivo
+                prepará-lo para ocupar cargos operacionais em vagas na indústria
+                relacionadas ao campo de produção. Desta forma, os módulos do
+                curso são organizados para fornecer aos alunos conhecimentos
+                específicos relacionados à metrologia, tecnologia mecânica,
+                leitura e interpretação de desenhos.
+              </p>
+              <br />
+            </div>
+            <div className="image">
+              <img src={factory} alt="Industria" />
+            </div>
+          </div>
+        </CourseCard>
+
+        {/* <Container>
+          <div>
+            <div>
+              <h2> Informática </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+                Veritatis obcaecati tenetur iure eius earum ut molestias
+                architecto voluptate aliquam nihil, eveniet aliquid culpa
+                officia aut! Impedit sit sunt quaerat, odit, tenetur error,
+                harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia.
+                Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
+                sapiente officiis modi at sunt excepturi expedita sint? Sed
+                quibusdam recusandae alias error harum maxime adipisci amet
+                laborum. Perspiciatis minima nesciunt dolorem! Officiis iure
+                rerum voluptates a cumque velit quibusdam sed amet tempora. Sit
+                laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim
+                commodi iusto libero magni deleniti quod quam consequuntur!
+                Commodi minima excepturi repudiandae velit hic maxime
+                doloremque. Quaerat provident commodi consectetur veniam
+                similique ad earum omnis ipsum saepe, voluptas, hic voluptates
+                pariatur est explicabo fugiat, dolorum eligendi quam cupiditate
+                excepturi mollitia maiores labore suscipit quas? Nulla, placeat.
+                Voluptatem quaerat non architecto ab laudantium modi minima sunt
+                esse temporibus sint culpa, recusandae aliquam numquam totam
+                ratione voluptas quod exercitationem fuga. Possimus quis earum
+                veniam quasi aliquam eligendi, placeat qui corporis!
+              </p>
+              <br />
+            </div>
+            <div>
+              <img
+                src="https://static.invenglobal.com/upload/image/2020/08/13/o1597361719998783.jpeg"
+                alt="Computador"
+              />
+            </div>
+          </div>
+          <div>
+            <div>
+              <img
+                src={scienticResearch}
+                alt="Computador"
+              />
+            </div>
+            <div>
+              <h2> Saúde </h2>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                mollitia, molestiae quas vel sint commodi repudiandae
+                consequuntur voluptatum laborum numquam blanditiis harum
+                quisquam eius sed odit fugiat iusto fuga praesentium optio,
+                eaque rerum! Provident similique accusantium nemo autem.
+                Veritatis obcaecati tenetur iure eius earum ut molestias
+                architecto voluptate aliquam nihil, eveniet aliquid culpa
+                officia aut! Impedit sit sunt quaerat, odit, tenetur error,
+                harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia.
+                Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
+                sapiente officiis modi at sunt excepturi expedita sint? Sed
+                quibusdam recusandae alias error harum maxime adipisci amet
+                laborum. Perspiciatis minima nesciunt dolorem! Officiis iure
+                rerum voluptates a cumque velit quibusdam sed amet tempora. Sit
+                laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim
+                commodi iusto libero magni deleniti quod quam consequuntur!
+                Commodi minima excepturi repudiandae velit hic maxime
+                doloremque. Quaerat provident commodi consectetur veniam
+                similique ad earum omnis ipsum saepe, voluptas, hic voluptates
+                pariatur est explicabo fugiat, dolorum eligendi quam cupiditate
+                excepturi mollitia maiores labore suscipit quas? Nulla, placeat.
+                Voluptatem quaerat non architecto ab laudantium modi minima sunt
+                esse temporibus sint culpa, recusandae aliquam numquam totam
+                ratione voluptas quod exercitationem fuga. Possimus quis earum
+                veniam quasi aliquam eligendi, placeat qui corporis!
+              </p>
+            </div>
+          </div>
+        </Container> */}
       </Block>
 
       <Footer />

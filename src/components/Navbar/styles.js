@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   width: 100%;
-  height: 72px;
   background: var(--color-light);
   display: flex;
   align-items: center;
@@ -21,21 +20,21 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0.5rem 5rem;
+  /* margin: 0.5rem 5rem; */
+  padding: 0 5rem;
   flex-wrap: wrap;
   overflow: hidden;
 
   @media screen and (max-width: 630px) {
-    margin: 0.2rem 3rem;
+    padding: 0 3rem;
   }
 
   @media screen and (max-width: 400px) {
-    margin: 0.1rem 1rem;
+    padding: 0.1rem 1rem;
   }
 `;
 
 export const Title = styled.div`
-  padding-top: 5px;
   flex: 1;
 `;
 

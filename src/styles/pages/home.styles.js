@@ -204,7 +204,7 @@ export const Block = styled.div`
       font-size: 16px;
       font-weight: 500;
 
-      &:not(:first-child){
+      &:not(:first-child) {
         border-top: 1px solid var(--color-dark);
       }
     }
@@ -259,7 +259,6 @@ export const CourseItem = styled.div`
 `;
 
 export const Courses = styled.div`
-
   a {
     text-decoration: none;
   }
@@ -321,6 +320,50 @@ export const Courses = styled.div`
 
       svg {
         font-size: 22px;
+      }
+    }
+  }
+`;
+
+export const CourseCard = styled.div`
+  margin-top: 15px;
+  padding: 25px;
+  font-family: Nunito;
+  font-weight: 400;
+
+  border: 1px solid #ddd;
+  border-radius: 20px;
+
+  & > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+      width: 50%;
+
+      &.image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h2,
+      p {
+        padding: 12px;
+      }
+
+      img {
+        width: 40%;
+      }
+
+      @media screen and (max-width: 720px) {
+        width: 100%;
+
+        img {
+          margin-bottom: 15px;
+        }
       }
     }
   }

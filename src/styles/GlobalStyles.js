@@ -33,7 +33,7 @@ body {
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased !important;
   background: var(--color-light);
-  /* font-family: "Nunito", sans-serif !important; */
+  font-family: "Nunito", sans-serif !important;
   font-size: 14px;
 }
 
