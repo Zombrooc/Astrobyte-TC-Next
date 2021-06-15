@@ -81,15 +81,13 @@ function Footer() {
               <h2 className="nav__title">Legal</h2>
               <ul className="nav__ul">
                 <li>
-                  <a href="/termo-de-politica-e-privacidade.html" >
+                  <a href="/termo-de-politica-e-privacidade.html">
                     Política de Privacidade
                   </a>
                 </li>
 
                 <li>
-                  <a href="/termo-de-servico.html">
-                    Termos de Uso
-                  </a>
+                  <a href="/termo-de-servico.html">Termos de Uso</a>
                 </li>
 
                 <li>
@@ -104,8 +102,13 @@ function Footer() {
           <div className="legal">
             <div className="legal__links">
               <span>
-                Developed by: <a href="https://thesimpletech.com.br/" style={{textDecoration: 'underline'}}>{"\u003c\u003e"} The Simple TECH
-                {"\u003c\u002f\u003e"}</a>
+                Desenvolvido por{" "}
+                <a
+                  href="https://thesimpletech.com.br/"
+                  style={{ textDecoration: "underline" }}
+                >
+                  The Simple TECH
+                </a>
               </span>
             </div>
           </div>

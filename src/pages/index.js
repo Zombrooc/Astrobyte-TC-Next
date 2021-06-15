@@ -12,14 +12,15 @@ import {
   FaHardHat,
   FaTools,
 } from "react-icons/fa";
-
 import { Link as ScrollLink } from "react-scroll";
 
 import office from "../assets/office.svg";
 import heart from "../assets/heart.svg";
 import factory from "../assets/factory.svg";
+import massage from "../assets/massage.png";
 
 import Navbar from "../components/Navbar";
+import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
 
 import {
@@ -129,7 +130,7 @@ export default function Home() {
         <BlockTitle>
           <span> Nossos Cursos </span>
         </BlockTitle>
-
+        <br />
         <CourseCard>
           <div>
             <div>
@@ -190,6 +191,31 @@ export default function Home() {
             </div>
           </div>
         </CourseCard>
+        <CourseCard>
+          <div>
+            <div className="image">
+              <img src={massage} alt="Industria" />
+            </div>
+            <div>
+              <h2> Estética </h2>
+
+              <p>
+                O curso de Estética forma profissionais especializados em beleza
+                e bem-estar. Ao final do curso, você estará preparada para
+                atuar no tratamento e embelezamento da face, corpo e cabelos. No
+                mercado de trabalho, o esteticista pode atuar em salões de
+                beleza, centros de estética, clínicas, academias, SPAs, resorts,
+                indústrias, centros médicos e hotéis.
+              </p>
+              <br />
+            </div>
+          </div>
+        </CourseCard>
+      </Block>
+      <Block>
+        <h2> Entrar em contato </h2>
+        <hr />
+        <ContactForm />
       </Block>
 
       <Footer />
