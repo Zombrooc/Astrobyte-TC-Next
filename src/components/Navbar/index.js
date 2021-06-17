@@ -56,7 +56,9 @@ function Navbar(){
           </MenuItem>
           <MenuItem>
             <ScrollLink to="allCourses" spy={true} smooth={true} duration={800}>
-              <a href="#allCourses">Cursos</a>
+              <Link href="/">
+                <a> Cursos </a>
+              </Link>
             </ScrollLink>
           </MenuItem>
           <MenuItem>

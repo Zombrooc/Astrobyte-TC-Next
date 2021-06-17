@@ -131,25 +131,29 @@ export default function Home() {
           <span> Nossos Cursos </span>
         </BlockTitle>
         <br />
-        <CourseCard>
-          <div>
+        <Link href="/courses/it">
+          <a>
+          <CourseCard>
             <div>
-              <h2> Informática </h2>
-              <p>
-                Para que um computador atenda com eficiência às necessidades
-                básicas dos usuários, é essencial aprender a usar um pacote de
-                programas. Os cursos de informática fornecem recursos básicos e
-                avançados de uma forma muito educacional, permitindo que você
-                use sistemas operacionais, crie documentos e monte planilhas
-                inteligentes.
-              </p>
-              <br />
+              <div>
+                <h2> Informática </h2>
+                <p>
+                  Para que um computador atenda com eficiência às necessidades
+                  básicas dos usuários, é essencial aprender a usar um pacote de
+                  programas. Os cursos de informática fornecem recursos básicos e
+                  avançados de uma forma muito educacional, permitindo que você
+                  use sistemas operacionais, crie documentos e monte planilhas
+                  inteligentes.
+                </p>
+                <br />
+              </div>
+              <div className="image">
+                <img src={office} alt="Microsoft Office" />
+              </div>
             </div>
-            <div className="image">
-              <img src={office} alt="Microsoft Office" />
-            </div>
-          </div>
-        </CourseCard>
+          </CourseCard>
+          </a>
+        </Link>
         <CourseCard>
           <div>
             <div className="image">
