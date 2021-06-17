@@ -77,7 +77,7 @@ export default function Home() {
 
         <Courses>
           <CourseItem gridArea="FirstCourse">
-            <Link href="/courses/technology">
+            <Link href="/courses/it">
               <a>
                 <FaTerminal />
                 <span> Informática </span>
@@ -133,88 +133,100 @@ export default function Home() {
         <br />
         <Link href="/courses/it">
           <a>
-          <CourseCard>
-            <div>
+            <CourseCard>
               <div>
-                <h2> Informática </h2>
-                <p>
-                  Para que um computador atenda com eficiência às necessidades
-                  básicas dos usuários, é essencial aprender a usar um pacote de
-                  programas. Os cursos de informática fornecem recursos básicos e
-                  avançados de uma forma muito educacional, permitindo que você
-                  use sistemas operacionais, crie documentos e monte planilhas
-                  inteligentes.
-                </p>
-                <br />
+                <div>
+                  <h2> Informática </h2>
+                  <p>
+                    Para que um computador atenda com eficiência às necessidades
+                    básicas dos usuários, é essencial aprender a usar um pacote
+                    de programas. Os cursos de informática fornecem recursos
+                    básicos e avançados de uma forma muito educacional,
+                    permitindo que você use sistemas operacionais, crie
+                    documentos e monte planilhas inteligentes.
+                  </p>
+                  <br />
+                </div>
+                <div className="image">
+                  <img src={office} alt="Microsoft Office" />
+                </div>
               </div>
-              <div className="image">
-                <img src={office} alt="Microsoft Office" />
-              </div>
-            </div>
-          </CourseCard>
+            </CourseCard>
           </a>
         </Link>
-        <CourseCard>
-          <div>
-            <div className="image">
-              <img src={heart} alt="Coração" />
-            </div>
-            <div>
-              <h2> Saúde </h2>
-              <p>
-                O mercado de trabalho dos profissionais de saúde continua em
-                expansão graças ao surgimento de novos exames, diagnósticos,
-                medicamentos, tratamentos, clínicas e hospitais. Portanto, se
-                você está interessado nesta área, saiba que pode escolher um
-                curso no qual você pode lidar com atendimento direto ao
-                paciente, gestão, ensino, pesquisa ou empreendedorismo nesta
-                área.
-              </p>
-              <br />
-            </div>
-          </div>
-        </CourseCard>
-        <CourseCard>
-          <div>
-            <div>
-              <h2> Industria </h2>
-              <p>
-                Quem deseja ingressar rapidamente no mercado de trabalho
-                encontra alternativas interessantes com o auxílio de cursos de
-                qualificação profissional. Nossos cursos têm como objetivo
-                prepará-lo para ocupar cargos operacionais em vagas na indústria
-                relacionadas ao campo de produção. Desta forma, os módulos do
-                curso são organizados para fornecer aos alunos conhecimentos
-                específicos relacionados à metrologia, tecnologia mecânica,
-                leitura e interpretação de desenhos.
-              </p>
-              <br />
-            </div>
-            <div className="image">
-              <img src={factory} alt="Industria" />
-            </div>
-          </div>
-        </CourseCard>
-        <CourseCard>
-          <div>
-            <div className="image">
-              <img src={massage} alt="Industria" />
-            </div>
-            <div>
-              <h2> Estética </h2>
+        <Link href="/courses/health">
+          <a>
+            <CourseCard>
+              <div>
+                <div className="image">
+                  <img src={heart} alt="Coração" />
+                </div>
+                <div>
+                  <h2> Saúde </h2>
+                  <p>
+                    O mercado de trabalho dos profissionais de saúde continua em
+                    expansão graças ao surgimento de novos exames, diagnósticos,
+                    medicamentos, tratamentos, clínicas e hospitais. Portanto,
+                    se você está interessado nesta área, saiba que pode escolher
+                    um curso no qual você pode lidar com atendimento direto ao
+                    paciente, gestão, ensino, pesquisa ou empreendedorismo nesta
+                    área.
+                  </p>
+                  <br />
+                </div>
+              </div>
+            </CourseCard>
+          </a>
+        </Link>
+        <Link href="/courses/indutry">
+          <a>
+            <CourseCard>
+              <div>
+                <div>
+                  <h2> Industria </h2>
+                  <p>
+                    Quem deseja ingressar rapidamente no mercado de trabalho
+                    encontra alternativas interessantes com o auxílio de cursos
+                    de qualificação profissional. Nossos cursos têm como
+                    objetivo prepará-lo para ocupar cargos operacionais em vagas
+                    na indústria relacionadas ao campo de produção. Desta forma,
+                    os módulos do curso são organizados para fornecer aos alunos
+                    conhecimentos específicos relacionados à metrologia,
+                    tecnologia mecânica, leitura e interpretação de desenhos.
+                  </p>
+                  <br />
+                </div>
+                <div className="image">
+                  <img src={factory} alt="Industria" />
+                </div>
+              </div>
+            </CourseCard>
+          </a>
+        </Link>
+        <Link href="/courses/aesthetic">
+          <a>
+            <CourseCard>
+              <div>
+                <div className="image">
+                  <img src={massage} alt="Estética" />
+                </div>
+                <div>
+                  <h2> Estética </h2>
 
-              <p>
-                O curso de Estética forma profissionais especializados em beleza
-                e bem-estar. Ao final do curso, você estará preparada para
-                atuar no tratamento e embelezamento da face, corpo e cabelos. No
-                mercado de trabalho, o esteticista pode atuar em salões de
-                beleza, centros de estética, clínicas, academias, SPAs, resorts,
-                indústrias, centros médicos e hotéis.
-              </p>
-              <br />
-            </div>
-          </div>
-        </CourseCard>
+                  <p>
+                    O curso de Estética forma profissionais especializados em
+                    beleza e bem-estar. Ao final do curso, você estará preparada
+                    para atuar no tratamento e embelezamento da face, corpo e
+                    cabelos. No mercado de trabalho, o esteticista pode atuar em
+                    salões de beleza, centros de estética, clínicas, academias,
+                    SPAs, resorts, indústrias, centros médicos e hotéis.
+                  </p>
+                  <br />
+                </div>
+              </div>
+            </CourseCard>
+          </a>
+        </Link>
       </Block>
       <Block>
         <h2> Entrar em contato </h2>
