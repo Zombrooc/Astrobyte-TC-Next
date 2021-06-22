@@ -19,10 +19,9 @@ function health() {
         <h1> Industria </h1>
         <hr />
         <p>
-          Você se interessa pelos cursos na área da saúde, mas fica na dúvida
-          sobre qual escolher? Existem algumas carreiras que têm um mercado
-          aquecido, ou seja, vai se dar bem trabalhando no setor público e
-          privado.
+          Cursos de curta duração para você aprender as funções básicas de uma
+          profissão, se qualificar para o mercado de trabalho ou evoluir na
+          carreira.
         </p>
         <p>
           Saúde é uma área incrível para trabalhar. Os cursos da área de saúde
@@ -185,7 +184,7 @@ function health() {
             {" "}
             Entre em contato conosco e inicie uma nova jornada na sua carreira
           </h1>
-          <br/>
+          <br />
           <ContactForm />
         </div>
       </Container>
