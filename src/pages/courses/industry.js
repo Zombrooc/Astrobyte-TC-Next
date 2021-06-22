@@ -11,12 +11,12 @@ function health() {
   return (
     <>
       <Head>
-        <title> Saúde - Astrobyte</title>
+        <title> Industria - Astrobyte</title>
       </Head>
       <Navbar />
 
       <Container>
-        <h1> Saúde </h1>
+        <h1> Industria </h1>
         <hr />
         <p>
           Você se interessa pelos cursos na área da saúde, mas fica na dúvida

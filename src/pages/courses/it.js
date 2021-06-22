@@ -16,6 +16,7 @@ function it() {
 
       <Container>
         <h1> Informática </h1>
+        <hr />
         <p>
           Ter os conhecimentos básicos em informática é fundamental para
           qualquer um, já que a tecnologia está intrinsecamente em nosso
@@ -36,109 +37,215 @@ function it() {
           tem de pessoas que saibam como manusear um computador e suas funções.
         </p>
 
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            width: "100%",
-            justifyContent: "center",
-          }}
-        >
-          <CourseCard>
-            <div>
-              <h2> Informática Básica </h2>
-              <strong>Carga horária: 65 Horas - 5 Meses</strong>
+        <div className="row row-cols-1 row-cols-md-2 g-4">
+          <div className="col">
+            <div className="card mb-3">
+              <div className="row g-0">
+                <div className="col-md-8">
+                  <div className="card-body">
+                    <h5 className="card-title">Informática Básica</h5>
+                    <hr />
+                    <p className="card-text">
+                      <small className="text-muted">
+                        Carga horária: 65 Horas - 5 Meses
+                      </small>
+                      <br />
+                      <small className="text-muted">
+                        Prof: Elian Valdez V. L. Gonçalo
+                      </small>
+                    </p>
+                    <p
+                      className="card-text"
+                      style={{
+                        color: "var(--color-success)",
+                        fontSize: "15px",
+                        marginBottom: "15px",
+                      }}
+                    >
+                      Vagas Abertas
+                    </p>
+                    <p className="card-text">
+                      Aprenda o essencial na área de informática para ingressar
+                      no mercado de trabalho. Windows, Word, PowerPoint, Excel
+                      são os elementos que irão compor o seu currículo.
+                    </p>
+                    <a
+                      href="https://wa.me/5535987073219"
+                      style={{
+                        background: "var(--color-info)",
+                        padding: "10px",
+                        textAlign: "center",
+                        color: "var(--color-light)",
+                        borderRadius: "15px",
+                      }}
+                    >
+                      {" "}
+                      Fazer minha incrição agora
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div>
-              <h3> Módulos: </h3>
-              <ul>
-                <li> Windows 10 (Sistema Operacional)</li>
-                <li> Internet </li>
-                <li>
-                  Pacote Office
-                  <ul>
-                    <li> Word (Edição de Texto)</li>
-                    <li> PowerPoint (Criação de Slides)</li>
-                    <li> Excel (Planilhas Eletrônicas)</li>
-                  </ul>
-                </li>
-              </ul>
+          </div>
+          <div className="col">
+            <div className="card mb-3">
+              <div className="row g-0">
+                <div className="col-md-8">
+                  <div className="card-body">
+                    <h5 className="card-title">Informática Avançada</h5>
+                    <hr />
+                    <p className="card-text">
+                      <small className="text-muted">
+                        Carga horária: 70 Horas - 7 Meses
+                      </small>
+                      <br />
+                      <small className="text-muted">
+                        Prof: Elian Valdez V. L. Gonçalo
+                      </small>
+                    </p>
+                    <p
+                      className="card-text"
+                      style={{
+                        color: "var(--color-success)",
+                        fontSize: "15px",
+                        marginBottom: "15px",
+                      }}
+                    >
+                      Vagas Abertas
+                    </p>
+                    <p className="card-text">
+                      Aprenda sobre Design Gráfico e se torne um designer
+                      profissional. Photoshop CC e CorelDraw serão as suas
+                      ferramentas nessa jornada.
+                    </p>
+                    <a
+                      href="https://wa.me/5535987073219"
+                      style={{
+                        background: "var(--color-info)",
+                        padding: "10px",
+                        textAlign: "center",
+                        color: "var(--color-light)",
+                        borderRadius: "15px",
+                      }}
+                    >
+                      {" "}
+                      Fazer minha incrição agora
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="CtA">
-              <a href="https://wa.me/5535988777750"> Saiba Mais </a>
+          </div>
+          <div className="col">
+            <div className="card mb-3">
+              <div className="row g-0">
+                <div className="col-md-8">
+                  <div className="card-body">
+                    <h5 className="card-title">Excel Avançado</h5>
+                    <hr />
+                    <p className="card-text">
+                      <small className="text-muted">
+                        Carga horária: 30 Horas - 3 Meses
+                      </small>
+                      <br />
+                      <small className="text-muted">
+                        Prof: Elian Valdez V. L. Gonçalo
+                      </small>
+                    </p>
+                    <p
+                      className="card-text"
+                      style={{
+                        color: "var(--color-success)",
+                        fontSize: "15px",
+                        marginBottom: "15px",
+                      }}
+                    >
+                      Vagas Abertas
+                    </p>
+                    <p className="card-text">
+                      Aprenda mais sobre essa poderosa ferramenta que é o Excel,
+                      crie suas próprias funções, trabalhe com banco de dados,
+                      tabelas dinâmicas e muito mais.
+                    </p>
+                    <a
+                      href="https://wa.me/5535987073219"
+                      style={{
+                        background: "var(--color-info)",
+                        padding: "10px",
+                        textAlign: "center",
+                        color: "var(--color-light)",
+                        borderRadius: "15px",
+                      }}
+                    >
+                      {" "}
+                      Fazer minha incrição agora
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </CourseCard>
-          <CourseCard>
-            <div>
-              <h2> Informática Avançada </h2>
-              <strong>Carga horária: 70 Horas - 7 Meses</strong>
+          </div>
+          <div className="col">
+            <div className="card mb-3">
+              <div className="row g-0">
+                <div className="col-md-8">
+                  <div className="card-body">
+                    <h5 className="card-title">Capacitação 1° emprego</h5>
+                    <hr />
+                    <p className="card-text">
+                      <small className="text-muted">
+                        Carga horária mínima: 60 Horas - 6 Meses
+                      </small>
+                      <br />
+                      <small className="text-muted">
+                        Prof: Elian Valdez V. L. Gonçalo
+                      </small>
+                    </p>
+                    <p
+                      className="card-text"
+                      style={{
+                        color: "var(--color-success)",
+                        fontSize: "15px",
+                        marginBottom: "15px",
+                      }}
+                    >
+                      Vagas Abertas
+                    </p>
+                    <p className="card-text">
+                      Aprenda mais sobre essa poderosa ferramenta que é o Excel,
+                      crie suas próprias funções, trabalhe com banco de dados,
+                      tabelas dinâmicas e muito mais.
+                    </p>
+                    <a
+                      href="https://wa.me/5535987073219"
+                      style={{
+                        background: "var(--color-info)",
+                        padding: "10px",
+                        textAlign: "center",
+                        color: "var(--color-light)",
+                        borderRadius: "15px",
+                      }}
+                    >
+                      {" "}
+                      Fazer minha incrição agora
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div>
-              <h3> Módulos: </h3>
-              <ul>
-                <li> Digitação </li>
-                <li>
-                  Design Gráfico
-                  <ul>
-                    <li> Photoshop (Edição de Imagens)</li>
-                    <li> CorelDraw (Desenhos Vetoriais)</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div className="CtA">
-              <a href="https://wa.me/5535988777750"> Saiba Mais </a>
-            </div>
-          </CourseCard>
-          <CourseCard>
-            <div>
-              <h2> Excel Avançado </h2>
-              <strong>Carga horária: 30 Horas - 3 Meses</strong>
-            </div>
-
-            <div>
-              <h3> Módulos: </h3>
-              <ul>
-                <li> Funções Financeiras </li>
-                <li> Funções Matemáticas </li>
-                <li> VBA Básico </li>
-                <li> Funções de Pesquisa </li>
-                <li> Tabelas Dinâmicas</li>
-                <li> Microsoft Access </li>
-              </ul>
-            </div>
-            <div className="CtA">
-              <a href="https://wa.me/5535988777750"> Saiba Mais </a>
-            </div>
-          </CourseCard>
-          <CourseCard>
-            <div>
-              <h2> Capacitação 1° Emprego </h2>
-              <strong>Carga horária: Horas - 3 Meses</strong>
-            </div>
-
-            <div>
-              <h3> Módulos: </h3>
-              <ul>
-                <li> Windows 10 (Sistema Operacional)</li>
-                <li> Internet </li>
-                <li>
-                  Pacote Office
-                  <ul>
-                    <li> Word (Edição de Texto)</li>
-                    <li> PowerPoint (Criação de Slides)</li>
-                    <li> Excel (Planilhas Eletrônicas)</li>
-                  </ul>
-                </li>
-                <li>Auxiliar Administrativo</li>
-              </ul>
-            </div>
-            <div className="CtA">
-              <a href="https://wa.me/5535988777750"> Saiba Mais </a>
-            </div>
-          </CourseCard>
+          </div>
+        </div>
+        <div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <h1>
+            {" "}
+            Entre em contato conosco e inicie uma nova jornada na sua carreira
+          </h1>
+          <br />
+          <ContactForm />
         </div>
       </Container>
       <Footer />

@@ -178,7 +178,7 @@ export default function Home() {
             </CourseCard>
           </a>
         </Link>
-        <Link href="/courses/indutry">
+        <Link href="/courses/industry">
           <a>
             <CourseCard>
               <div>
