@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -126,6 +127,10 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <a href="https://wa.me/5535987073219" className="whatsAppButton">
+            <IoLogoWhatsapp style={{ fontSize: "26px" }} />
+            <strong>Contrate já seu curso! </strong>
+          </a>
           <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
             integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

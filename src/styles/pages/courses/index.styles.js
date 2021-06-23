@@ -11,13 +11,13 @@ export const Container = styled.div`
   }
 
   .callToAction {
-    background: var(--color-primary);
+    background: var(--color-info);
     text-align: center;
-    transition: 0.5;
+    transition: background .7s;
     color: #fff;
 
     &:hover {
-      background: var(--color-info);
+      background: var(--color-primary);
     }
   }
 `;

@@ -49,7 +49,7 @@ export default function Home() {
           <h2> A única jornada impossível é aquela que você nunca começa </h2>
           <p>
             Conheça nossa escola e inicie sua jornada no mercado de trabalho com
-            o melhor do ensino profissionalizante
+            o melhor do ensino profissionalizante. Seu futuro começa aqui
           </p>
           <ScrollLink to="mostWanted" spy={true} smooth={true} duration={800}>
             <CallToAction>Iniciar jornada</CallToAction>

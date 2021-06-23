@@ -46,6 +46,28 @@ button {
 a {
   text-decoration: none;
   color: var(--color-dark);
+
+  &.whatsAppButton{
+    position: fixed;
+    padding: 17px 34px;
+    background: var(--color-success);
+    color: #fff;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 700px;
+    z-index: 4444;
+    font-size: 17px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      margin-bottom: 4px;
+      margin-right: 7px;
+    }
+  }
+
 }
 
 `;
