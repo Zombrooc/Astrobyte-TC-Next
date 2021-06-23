@@ -2,9 +2,10 @@ import React from "react";
 import Head from "next/head";
 
 import Navbar from "../../components/Navbar";
+import ContactForm from "../../componenets/ContactForm";
 import Footer from "../../components/Footer";
 
-import { Container, CourseCard } from "../../styles/pages/courses/index.styles";
+import { Container } from "../../styles/pages/courses/index.styles";
 
 function it() {
   return (
