@@ -9,4 +9,15 @@ export const Container = styled.div`
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.8;
   }
+
+  .callToAction {
+    background: var(--color-primary);
+    text-align: center;
+    transition: 0.5;
+    color: #fff;
+
+    &:hover {
+      background: var(--color-info);
+    }
+  }
 `;

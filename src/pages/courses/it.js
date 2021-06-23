@@ -40,199 +40,155 @@ function it() {
 
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
-            <div className="card mb-3">
-              <div className="row g-0">
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Informática Básica</h5>
-                    <hr />
-                    <p className="card-text">
-                      <small className="text-muted">
-                        Carga horária: 65 Horas - 5 Meses
-                      </small>
-                      <br />
-                      <small className="text-muted">
-                        Prof: Elian Valdez V. L. Gonçalo
-                      </small>
-                    </p>
-                    <p
-                      className="card-text"
-                      style={{
-                        color: "var(--color-success)",
-                        fontSize: "15px",
-                        marginBottom: "15px",
-                      }}
-                    >
-                      Vagas Abertas
-                    </p>
-                    <p className="card-text">
-                      Aprenda o essencial na área de informática para ingressar
-                      no mercado de trabalho. Windows, Word, PowerPoint, Excel
-                      são os elementos que irão compor o seu currículo.
-                    </p>
-                    <a
-                      href="https://wa.me/5535987073219"
-                      style={{
-                        background: "var(--color-info)",
-                        padding: "10px",
-                        textAlign: "center",
-                        color: "var(--color-light)",
-                        borderRadius: "15px",
-                      }}
-                    >
-                      {" "}
-                      Fazer minha incrição agora
-                    </a>
-                  </div>
-                </div>
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">Informática Básica</h5>
+                <hr />
+                <p className="card-text">
+                  <small className="text-muted">
+                    Carga horária: 65 Horas - 5 Meses
+                  </small>
+                  <br />
+                  <small className="text-muted">
+                    Prof: Elian Valdez V. L. Gonçalo
+                  </small>
+                </p>
+                <p
+                  className="card-text"
+                  style={{
+                    color: "var(--color-success)",
+                    fontSize: "15px",
+                    marginBottom: "15px",
+                  }}
+                >
+                  Vagas Abertas
+                </p>
+                <p className="card-text">
+                  Aprenda o essencial na área de informática para ingressar no
+                  mercado de trabalho. Windows, Word, PowerPoint, Excel são os
+                  elementos que irão compor o seu currículo.
+                </p>
               </div>
+              <a
+                href="https://wa.me/5535987073219"
+                className="card-footer callToAction"
+              >
+                Saiba Mais
+              </a>
             </div>
           </div>
           <div className="col">
-            <div className="card mb-3">
-              <div className="row g-0">
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Informática Avançada</h5>
-                    <hr />
-                    <p className="card-text">
-                      <small className="text-muted">
-                        Carga horária: 70 Horas - 7 Meses
-                      </small>
-                      <br />
-                      <small className="text-muted">
-                        Prof: Elian Valdez V. L. Gonçalo
-                      </small>
-                    </p>
-                    <p
-                      className="card-text"
-                      style={{
-                        color: "var(--color-success)",
-                        fontSize: "15px",
-                        marginBottom: "15px",
-                      }}
-                    >
-                      Vagas Abertas
-                    </p>
-                    <p className="card-text">
-                      Aprenda sobre Design Gráfico e se torne um designer
-                      profissional. Photoshop CC e CorelDraw serão as suas
-                      ferramentas nessa jornada.
-                    </p>
-                    <a
-                      href="https://wa.me/5535987073219"
-                      style={{
-                        background: "var(--color-info)",
-                        padding: "10px",
-                        textAlign: "center",
-                        color: "var(--color-light)",
-                        borderRadius: "15px",
-                      }}
-                    >
-                      {" "}
-                      Fazer minha incrição agora
-                    </a>
-                  </div>
-                </div>
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">Informática Avançada</h5>
+                <hr />
+                <p className="card-text">
+                  <small className="text-muted">
+                    Carga horária: 70 Horas - 7 Meses
+                  </small>
+                  <br />
+                  <small className="text-muted">
+                    Prof: Elian Valdez V. L. Gonçalo
+                  </small>
+                </p>
+                <p
+                  className="card-text"
+                  style={{
+                    color: "var(--color-success)",
+                    fontSize: "15px",
+                    marginBottom: "15px",
+                  }}
+                >
+                  Vagas Abertas
+                </p>
+                <p className="card-text">
+                  Aprenda sobre Design Gráfico e se torne um designer
+                  profissional. Photoshop CC e CorelDraw serão as suas
+                  ferramentas nessa jornada.
+                </p>
               </div>
+              <a
+                href="https://wa.me/5535987073219"
+                className="card-footer callToAction"
+              >
+                Saiba Mais
+              </a>
             </div>
           </div>
           <div className="col">
-            <div className="card mb-3">
-              <div className="row g-0">
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Excel Avançado</h5>
-                    <hr />
-                    <p className="card-text">
-                      <small className="text-muted">
-                        Carga horária: 30 Horas - 3 Meses
-                      </small>
-                      <br />
-                      <small className="text-muted">
-                        Prof: Elian Valdez V. L. Gonçalo
-                      </small>
-                    </p>
-                    <p
-                      className="card-text"
-                      style={{
-                        color: "var(--color-success)",
-                        fontSize: "15px",
-                        marginBottom: "15px",
-                      }}
-                    >
-                      Vagas Abertas
-                    </p>
-                    <p className="card-text">
-                      Aprenda mais sobre essa poderosa ferramenta que é o Excel,
-                      crie suas próprias funções, trabalhe com banco de dados,
-                      tabelas dinâmicas e muito mais.
-                    </p>
-                    <a
-                      href="https://wa.me/5535987073219"
-                      style={{
-                        background: "var(--color-info)",
-                        padding: "10px",
-                        textAlign: "center",
-                        color: "var(--color-light)",
-                        borderRadius: "15px",
-                      }}
-                    >
-                      {" "}
-                      Fazer minha incrição agora
-                    </a>
-                  </div>
-                </div>
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">Excel Avançado</h5>
+                <hr />
+                <p className="card-text">
+                  <small className="text-muted">
+                    Carga horária: 30 Horas - 3 Meses
+                  </small>
+                  <br />
+                  <small className="text-muted">
+                    Prof: Elian Valdez V. L. Gonçalo
+                  </small>
+                </p>
+                <p
+                  className="card-text"
+                  style={{
+                    color: "var(--color-success)",
+                    fontSize: "15px",
+                    marginBottom: "15px",
+                  }}
+                >
+                  Vagas Abertas
+                </p>
+                <p className="card-text">
+                  Aprenda mais sobre essa poderosa ferramenta que é o Excel,
+                  crie suas próprias funções, trabalhe com banco de dados,
+                  tabelas dinâmicas e muito mais.
+                </p>
               </div>
+              <a
+                href="https://wa.me/5535987073219"
+                className="card-footer callToAction"
+              >
+                Saiba Mais
+              </a>
             </div>
           </div>
           <div className="col">
-            <div className="card mb-3">
-              <div className="row g-0">
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Capacitação 1° emprego</h5>
-                    <hr />
-                    <p className="card-text">
-                      <small className="text-muted">
-                        Carga horária mínima: 60 Horas - 6 Meses
-                      </small>
-                      <br />
-                      <small className="text-muted">
-                        Prof: Elian Valdez V. L. Gonçalo
-                      </small>
-                    </p>
-                    <p
-                      className="card-text"
-                      style={{
-                        color: "var(--color-success)",
-                        fontSize: "15px",
-                        marginBottom: "15px",
-                      }}
-                    >
-                      Vagas Abertas
-                    </p>
-                    <p className="card-text">
-                      Aprenda mais sobre essa poderosa ferramenta que é o Excel,
-                      crie suas próprias funções, trabalhe com banco de dados,
-                      tabelas dinâmicas e muito mais.
-                    </p>
-                    <a
-                      href="https://wa.me/5535987073219"
-                      style={{
-                        background: "var(--color-info)",
-                        padding: "10px",
-                        textAlign: "center",
-                        color: "var(--color-light)",
-                        borderRadius: "15px",
-                      }}
-                    >
-                      {" "}
-                      Fazer minha incrição agora
-                    </a>
-                  </div>
-                </div>
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">Capacitação 1° emprego</h5>
+                <hr />
+                <p className="card-text">
+                  <small className="text-muted">
+                    Carga horária mínima: 60 Horas - 6 Meses
+                  </small>
+                  <br />
+                  <small className="text-muted">
+                    Prof: Elian Valdez V. L. Gonçalo
+                  </small>
+                </p>
+                <p
+                  className="card-text"
+                  style={{
+                    color: "var(--color-success)",
+                    fontSize: "15px",
+                    marginBottom: "15px",
+                  }}
+                >
+                  Vagas Abertas
+                </p>
+                <p className="card-text">
+                  Aprenda mais sobre essa poderosa ferramenta que é o Excel,
+                  crie suas próprias funções, trabalhe com banco de dados,
+                  tabelas dinâmicas e muito mais.
+                </p>
               </div>
+              <a
+                href="https://wa.me/5535987073219"
+                className="card-footer callToAction"
+              >
+                Saiba Mais
+              </a>
             </div>
           </div>
         </div>
