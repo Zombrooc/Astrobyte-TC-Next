@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import Navbar from "../../components/Navbar";
-import ContactForm from "../../componenets/ContactForm";
+import ContactForm from "../../components/ContactForm";
 import Footer from "../../components/Footer";
 
 import { Container } from "../../styles/pages/courses/index.styles";
