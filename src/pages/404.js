@@ -1,10 +1,13 @@
 import React from "react";
 import Head from "next/head";
-import { router } from "next/router";
+import { useRouter } from "next/router";
 
 import { CenterBox, Container } from "../styles/pages/404";
 
 export default function custom404() {
+
+  const router = useRouter();
+
   return (
     <Container>
       <Head>
