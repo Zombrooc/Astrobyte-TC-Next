@@ -41,7 +41,7 @@ function health() {
             <div className="card h-100">
               <div className="card-body">
                 <h5 className="card-title">
-                  Auxiliar de laboratório e análises clínicas
+                  Auxiliar de Laboratório e Análises Clínicas
                 </h5>
                 <p className="card-text">
                   <small className="text-muted">
@@ -76,7 +76,7 @@ function health() {
             <div className="card h-100">
               <div className="card-body">
                 <h5 className="card-title">
-                  Atendente de farmácia com Injetáveis (ATF)
+                  Atendente de Farmácia com Injetáveis (ATF)
                 </h5>
                 <p className="card-text">
                   <small className="text-muted">
