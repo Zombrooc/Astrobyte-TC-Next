@@ -71,7 +71,7 @@ export default function Home() {
           >
             <h3 style={{ textAlign: "center" }}>
               {" "}
-              <strong>Garanta sua vaga aqui </strong>
+              <strong>Garanta já sua vaga </strong>
             </h3>
             <hr />
             <ContactForm style={{ background: "var(--color-light)" }} />
@@ -91,11 +91,10 @@ export default function Home() {
           {/* </Block> */}
         </div>
       </MainBlock>
-      <Block id="mostWanted">
+      {/* <Block id="mostWanted">
         <BlockTitle>
           <span> Cursos mais procurados </span>
         </BlockTitle>
-
         <Courses>
           <CourseItem gridArea="FirstCourse">
             <Link href="/courses/it">
@@ -146,7 +145,7 @@ export default function Home() {
             </Link>
           </CourseItem>
         </Courses>
-      </Block>
+      </Block> */}
       <Block id="allCourses">
         <BlockTitle>
           <span> Nossos Cursos </span>
