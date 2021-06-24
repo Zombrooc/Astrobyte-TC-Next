@@ -178,9 +178,10 @@ function it() {
                   Vagas Abertas
                 </p>
                 <p className="card-text">
-                  Aprenda mais sobre essa poderosa ferramenta que é o Excel,
-                  crie suas próprias funções, trabalhe com banco de dados,
-                  tabelas dinâmicas e muito mais.
+                  O curso ideal para seu filho ingressar no mercado de trabalho
+                  mais prepado que nunca. Nesse curso os módulos de Auxiliar
+                  Administrativo, Motivação, Empreededorismo e Informática
+                  preparam o aluno para ingressar nesse mercado tão concorrido.
                 </p>
               </div>
               <a
