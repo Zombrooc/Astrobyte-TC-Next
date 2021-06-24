@@ -72,12 +72,14 @@ export const MainBlock = styled.div`
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-template-areas: "Left-Side Right-Side";
+
   .Left-Side {
     grid-area: Left-Side;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .Right-Side {
     grid-area: Right-Side;
     display: flex;
@@ -89,19 +91,20 @@ export const MainBlock = styled.div`
     flex-direction: column;
     /* height: 100% !important; */
     padding: 20px;
+    height: 100%;
 
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     grid-template-areas:
       "Left-Side"
-      "Left-Side";
+      "Right-Side";
 
-    .Right-Side {
+    /* .Right-Side {
       display: none;
-    }
+    } */
 
     ${Title} {
-      margin-top: 5rem;
+      margin-top: 8rem;
       padding-bottom: 5em;
       text-align: center;
     }

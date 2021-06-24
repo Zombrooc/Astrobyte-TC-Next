@@ -51,14 +51,32 @@ export default function Home() {
           </h1>
           <p>
             Conheça nossa escola e inicie sua jornada no mercado de trabalho com
-            o melhor do ensino profissionalizante.
+            o melhor do ensino profissionalizante. Esteja preparado para atuar
+            nas mais diversas área.
           </p>
           <ScrollLink to="mostWanted" spy={true} smooth={true} duration={800}>
             <CallToAction>Iniciar jornada</CallToAction>
           </ScrollLink>
         </Title>
-        <Achivements className="Right-Side">
-          <AchivementsItems>
+        {/* <Block className="Right-Side"> */}
+        <div className="Right-Side">
+          <div
+            style={{
+              width: "80%",
+              padding: "20px",
+              borderRadius: "17px",
+              background: "var(--color-light)",
+              marginTop: "65px",
+            }}
+          >
+            <h3 style={{ textAlign: "center" }}>
+              {" "}
+              <strong>Garanta sua vaga aqui </strong>
+            </h3>
+            <hr />
+            <ContactForm style={{ background: "var(--color-light)" }} />
+          </div>
+          {/* <AchivementsItems>
             <FaUser />
             Mais de 40000 alunos formados desde sua inauguração
           </AchivementsItems>
@@ -69,23 +87,10 @@ export default function Home() {
           <AchivementsItems>
             <FaCertificate />
             Certificação reconhecida no Brasil inteiro
-          </AchivementsItems>
-        </Achivements>
+          </AchivementsItems> */}
+          {/* </Block> */}
+        </div>
       </MainBlock>
-      <Block>
-        <BlockTitle>
-          <span>
-            {" "}
-            Faça já seu curso e entre no mercado de trabalho capacitado para o
-            serviço!
-          </span>
-        </BlockTitle>
-        <br />
-        <br />
-        <br />
-        <br />
-        <ContactForm />
-      </Block>
       <Block id="mostWanted">
         <BlockTitle>
           <span> Cursos mais procurados </span>
