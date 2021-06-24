@@ -51,14 +51,14 @@ export const Container = styled.div`
       }
 
       textarea {
-        height: 50px;
+        height: 55px;
       }
     }
 
     button {
       border: none;
       background: var(--color-success);
-      padding: 15px 30px;
+      padding: 12px 20px;
       border-radius: 7px;
       color: var(--color-light);
       font-size: 15px;
