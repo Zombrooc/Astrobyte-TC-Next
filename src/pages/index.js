@@ -47,11 +47,7 @@ export default function Home() {
       <MainBlock>
         <Title className="Left-Side">
           <h1>
-            <strong>
-              {" "}
-              Seu futuro começa{" "}
-              <span style={{ textDecoration: "underline" }}>aqui!</span>
-            </strong>{" "}
+            <strong> Seu futuro começa aqui!</strong>{" "}
           </h1>
           <p>
             Conheça nossa escola e inicie sua jornada no mercado de trabalho com
