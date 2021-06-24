@@ -39,79 +39,11 @@ function industry() {
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">
-                  Auxiliar de laboratório e análises clínicas
-                </h5>
+                <h5 className="card-title">Operador de Empilhadeira</h5>
                 <p className="card-text">
                   <small className="text-muted">
-                    Carga horária: 80 Horas - 8 Meses
+                    Carga horária: 20 Horas - Curso dias de sábado e domingo
                   </small>
-                </p>
-                <p
-                  className="card-text"
-                  style={{
-                    color: "var(--color-attention)",
-                    fontSize: "15px",
-                    marginBottom: "15px",
-                  }}
-                >
-                  Vagas Limitadas
-                </p>
-                <p className="card-text">
-                  Auxiliar de laboratório e análises clínicas é o curso que
-                  ajudará você a entrar na área da saúde e se destacar no
-                  mercado de trabalho.
-                </p>
-              </div>
-              <a
-                href="https://wa.me/5535987073219"
-                className="card-footer callToAction"
-              >
-                Saiba Mais
-              </a>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title">
-                  Atendente de farmácia com Injetáveis (ATF)
-                </h5>
-                <p className="card-text">
-                  <small className="text-muted">
-                    Carga horária: 80 Horas - 8 Meses
-                  </small>
-                </p>
-                <p
-                  className="card-text"
-                  style={{
-                    color: "var(--color-attention)",
-                    fontSize: "15px",
-                    marginBottom: "15px",
-                  }}
-                >
-                  Vagas Limitas
-                </p>
-                <p className="card-text">
-                  Nesse curso você irá desenvolver suas habilidades pessoais e
-                  terá treinamentos diferenciados para aumentar os conhecimentos
-                  teóricos e práticos na área.
-                </p>
-              </div>
-              <a
-                href="https://wa.me/5535987073219"
-                className="card-footer callToAction"
-              >
-                Saiba Mais
-              </a>
-            </div>
-          </div>
-          <div className="col">
-            <div className="card h-100">
-              <div className="card-body">
-                <h5 className="card-title">Auxiliar de Saúde Bucal (ASB) </h5>
-                <p className="card-text">
-                  <small className="text-muted">Carga horária: 300 Horas</small>
                 </p>
                 <p
                   className="card-text"
@@ -124,9 +56,10 @@ function industry() {
                   Vagas Abertas
                 </p>
                 <p className="card-text">
-                  O Curso Auxiliar em Saúde Bucal da Astrobyte, habilita e
-                  qualifica a exercer funções de suporte clínico ao dentista,
-                  secretariado e gestão.
+                  Ao término deste curso você estará apto a operar a
+                  empilhadeira com segurança e eficiência, possuindo assim os
+                  conhecimentos sobre o funcionamento e manutenção da
+                  empilhadeira e técnicas do correto manuseio da máquina.
                 </p>
               </div>
               <a
