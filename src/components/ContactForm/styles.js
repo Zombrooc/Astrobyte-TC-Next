@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
 
   width: 100%;
-  padding: 15px;
 
   form {
     width: 100%;
@@ -52,7 +51,7 @@ export const Container = styled.div`
       }
 
       textarea {
-        height: 100px;
+        height: 50px;
       }
     }
 
