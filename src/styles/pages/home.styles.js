@@ -230,12 +230,13 @@ export const BlockTitle = styled.div`
 export const CourseItem = styled.div`
   grid-area: ${(props) => props.gridArea};
   text-align: center;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
   cursor: pointer;
   border-radius: 4px;
   overflow: hidden;
   position: relative;
   background: var(--color-primary);
+  transition: 0.5s;
 
   a {
     width: 100%;
@@ -256,6 +257,11 @@ export const CourseItem = styled.div`
     font-size: 20px;
     color: var(--color-light);
     margin-top: 10px;
+  }
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   }
 `;
 
