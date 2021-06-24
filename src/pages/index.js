@@ -78,7 +78,11 @@ export default function Home() {
       </MainBlock>
       <Block>
         <BlockTitle>
-          <span> Faça já seu curso e entre no mercado de trabalho!</span>
+          <span>
+            {" "}
+            Faça já seu curso e entre no mercado de trabalho capacitado para o
+            serviço!
+          </span>
         </BlockTitle>
         <br />
         <br />
