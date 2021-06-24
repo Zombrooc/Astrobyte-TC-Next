@@ -46,10 +46,16 @@ export default function Home() {
 
       <MainBlock>
         <Title className="Left-Side">
-          <h2> A única jornada impossível é aquela que você nunca começa </h2>
+          <h1>
+            <strong>
+              {" "}
+              Seu futuro começa{" "}
+              <span style={{ textDecoration: "underline" }}>aqui!</span>
+            </strong>{" "}
+          </h1>
           <p>
             Conheça nossa escola e inicie sua jornada no mercado de trabalho com
-            o melhor do ensino profissionalizante. Seu futuro começa aqui
+            o melhor do ensino profissionalizante.
           </p>
           <ScrollLink to="mostWanted" spy={true} smooth={true} duration={800}>
             <CallToAction>Iniciar jornada</CallToAction>
@@ -70,6 +76,16 @@ export default function Home() {
           </AchivementsItems>
         </Achivements>
       </MainBlock>
+      <Block>
+        <BlockTitle>
+          <span> Faça já seu curso e entre no mercado de trabalho!</span>
+        </BlockTitle>
+        <br />
+        <br />
+        <br />
+        <br />
+        <ContactForm />
+      </Block>
       <Block id="mostWanted">
         <BlockTitle>
           <span> Cursos mais procurados </span>

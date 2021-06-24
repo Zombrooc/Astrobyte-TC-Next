@@ -12,12 +12,13 @@ export const Title = styled.div`
   flex-direction: column;
   color: var(--color-light);
 
-  h2 {
+  h1 {
     text-transform: uppercase;
+    letter-spacing: 5px;
   }
 
   p {
-    font-size: 16px;
+    font-size: 17px;
   }
 `;
 
