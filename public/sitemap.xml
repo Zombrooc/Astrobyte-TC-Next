@@ -1,23 +1,52 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
-  <url>
-    <loc>https://astrobyte-tc-next.vercel.app/</loc>
-    <lastmod>2021-04-12T23:54:25+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://astrobyte-tc-next.vercel.app/contact</loc>
-    <lastmod>2021-04-12T23:54:25+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://astrobyte-tc-next.vercel.app/termo-de-politica-e-privacidade.html</loc>
-    <lastmod>2021-04-12T23:54:25+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://astrobyte-tc-next.vercel.app/termo-de-servico.html</loc>
-    <lastmod>2021-04-12T23:54:25+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.astrobytetc.com.br/</loc>
+  <lastmod>2021-06-24T15:50:26+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.astrobytetc.com.br/contact</loc>
+  <lastmod>2021-06-24T15:50:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astrobytetc.com.br/courses/it</loc>
+  <lastmod>2021-06-24T15:50:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astrobytetc.com.br/courses/health</loc>
+  <lastmod>2021-06-24T15:50:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astrobytetc.com.br/courses/industry</loc>
+  <lastmod>2021-06-24T15:50:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astrobytetc.com.br/courses/aesthetic</loc>
+  <lastmod>2021-06-24T15:50:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astrobytetc.com.br/termo-de-politica-e-privacidade.html</loc>
+  <lastmod>2021-06-24T15:50:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astrobytetc.com.br/termo-de-servico.html</loc>
+  <lastmod>2021-06-24T15:50:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
