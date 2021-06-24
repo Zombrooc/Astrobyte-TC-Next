@@ -109,12 +109,12 @@ export const MainBlock = styled.div`
       text-align: center;
     }
 
-    ${Achivements} {
+    /* ${Achivements} {
       margin-top: 20px;
       margin-bottom: 20px;
-    }
+    } */
 
-    ${Title}, ${Achivements} {
+    ${Title} {
       width: auto;
       height: auto;
       padding: 0;
