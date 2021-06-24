@@ -7,7 +7,7 @@ import Footer from "../../components/Footer";
 
 import { Container } from "../../styles/pages/courses/index.styles";
 
-function health() {
+function industry() {
   return (
     <>
       <Head>
@@ -193,4 +193,4 @@ function health() {
   );
 }
 
-export default health;
+export default industry;
