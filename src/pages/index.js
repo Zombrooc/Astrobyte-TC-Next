@@ -91,7 +91,7 @@ export default function Home() {
           {/* </Block> */}
         </div>
       </MainBlock>
-      {/* <Block id="mostWanted">
+      <Block id="mostWanted">
         <BlockTitle>
           <span> Cursos mais procurados </span>
         </BlockTitle>
@@ -145,7 +145,7 @@ export default function Home() {
             </Link>
           </CourseItem>
         </Courses>
-      </Block> */}
+      </Block>
       <Block id="allCourses">
         <BlockTitle>
           <span> Nossos Cursos </span>
