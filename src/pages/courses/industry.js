@@ -186,7 +186,7 @@ function industry() {
                 <h5 className="card-title">Eletromecânica</h5>
                 <p className="card-text">
                   <small className="text-muted">
-                    Carga horária: 130 Horas - 1 ano e 3 meses
+                    Carga horária: 190 Horas - 1 ano e 9 meseses
                   </small>
                 </p>
                 <p
@@ -221,7 +221,7 @@ function industry() {
                 <h5 className="card-title">NR10 - Área Classificada</h5>
                 <p className="card-text">
                   <small className="text-muted">
-                    Carga horária: 20 Horas - Curso dias de sábado e domingo
+                    Carga horária: 40 Horas
                   </small>
                 </p>
                 <p
@@ -259,7 +259,7 @@ function industry() {
                 </h5>
                 <p className="card-text">
                   <small className="text-muted">
-                    Carga horária: 20 Horas - Curso dias de sábado e domingo
+                    Carga horária: 08 Horas
                   </small>
                 </p>
                 <p
@@ -297,7 +297,7 @@ function industry() {
                 </h5>
                 <p className="card-text">
                   <small className="text-muted">
-                    Carga horária: 20 Horas - Curso dias de sábado e domingo
+                    Carga horária: 40 Horas
                   </small>
                 </p>
                 <p
