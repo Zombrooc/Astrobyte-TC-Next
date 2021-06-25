@@ -24,7 +24,7 @@ export default createGlobalStyle`
 
   html,
   body,
-  #root {
+  #__next {
     min-height: 100%;
   }
 
