@@ -57,7 +57,7 @@ function Footer() {
 
               <ul className="nav__ul">
                 <li>
-                  <a href="https://wa.me/+5535987073215">Estética</a>
+                  <a href="https://wa.me/5535987073219">Estética</a>
                 </li>
                 <li>
                   <a href="https://www.facebook.com/astrobyte.centrodetreinamento">
