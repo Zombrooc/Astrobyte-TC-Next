@@ -188,9 +188,9 @@ export default function Home() {
                     expansão graças ao surgimento de novos exames, diagnósticos,
                     medicamentos, tratamentos, clínicas e hospitais. Portanto,
                     se você está interessado nesta área, saiba que pode escolher
-                    um curso no qual você pode lidar com atendimento direto ao
-                    paciente, gestão, ensino, pesquisa ou empreendedorismo nesta
-                    área.
+                    um curso no qual você pode entrar no mercado de trabalha na
+                    área de drogarias, laboratórios, cuidadores de idosos,
+                    gestão e muito mais.
                   </p>
                   <br />
                 </div>
