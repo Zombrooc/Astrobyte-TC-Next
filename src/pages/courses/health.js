@@ -76,7 +76,7 @@ function health() {
             <div className="card h-100">
               <div className="card-body">
                 <h5 className="card-title">
-                  Atendente de Farmácia com Injetáveis (ATF)
+                  Atendente de Farmácia e Manipulação (ATF)
                 </h5>
                 <p className="card-text">
                   <small className="text-muted">
