@@ -91,7 +91,7 @@ function aesthetic() {
                     marginBottom: "15px",
                   }}
                 >
-                  Vagas Limitas
+                  Vagas Limitadas
                 </p>
                 <p className="card-text">
                   Nesse curso você irá desenvolver suas habilidades pessoais e
