@@ -31,7 +31,7 @@ function health() {
           realização pessoal.
         </p>
         <p>
-          A vantagem de escolher nossos crusos na área da saúde é que eles são
+          A vantagem de escolher nossos cursos na área da saúde é que eles são
           consideravelmente mais curtos do que uma graduação, com duração entre
           um ano e meio e dois anos, e têm foco no mercado de trabalho.
         </p>

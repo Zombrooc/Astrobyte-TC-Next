@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 import { CenterBox, Container } from "../styles/pages/404";
 
 export default function custom404() {
-
   const router = useRouter();
 
   return (
@@ -21,10 +20,11 @@ export default function custom404() {
             <span className="f-modal-dot pulseWarningIns"></span>
           </div>
         </div>
-        <p> Infelizmente essa página ainda está em construção.</p>
+        <p> Infelizmente essa página não pode ser encontrada.</p>
         <p>
-          Mas em breve aqui terá mais cursos para alavancar sua carreira
-          profissional.
+          {" "}
+          Volte para o inicio e dê uma olhada na gama de cursos que temos a
+          oferecer para alavancar sua carreira. 😉
         </p>
         <br />
         <button onClick={() => router.push("/")}>Voltar para o ínicio</button>

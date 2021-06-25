@@ -147,13 +147,13 @@ const pulseWarning = keyframes`
 `;
 
 const pulseWarningIns = keyframes`
-0% {
-        background-color: #F8D486;
-    }
+  0% {
+    background-color: #F8D486;
+  }
 
-    100% {
-        background-color: #F8BB86;
-    }`;
+  100% {
+    background-color: #F8BB86;
+  }`;
 
 export const Container = styled.div`
   width: 100%;
@@ -196,115 +196,6 @@ export const Container = styled.div`
     padding: 0;
     position: relative;
     width: 80px;
-
-    // Success icon
-    &.f-modal-success,
-    &.f-modal-error {
-      border-color: #a5dc86;
-
-      &:after,
-      &:before {
-        background: #f5f5f5;
-        content: "";
-        height: 120px;
-        position: absolute;
-        transform: rotate(45deg);
-        width: 60px;
-      }
-
-      &:before {
-        border-radius: 120px 0 0 120px;
-        left: -33px;
-        top: -7px;
-        transform-origin: 60px 60px;
-        transform: rotate(-45deg);
-      }
-
-      &:after {
-        border-radius: 0 120px 120px 0;
-        left: 30px;
-        top: -11px;
-        transform-origin: 0 60px;
-        transform: rotate(-45deg);
-      }
-
-      .f-modal-placeholder {
-        border-radius: 50%;
-        border: 4px solid rgba(165, 220, 134, 0.2);
-        box-sizing: content-box;
-        height: 80px;
-        left: -4px;
-        position: absolute;
-        top: -4px;
-        width: 80px;
-        z-index: 2;
-      }
-
-      .f-modal-fix {
-        background-color: #f5f5f5;
-        height: 90px;
-        left: 28px;
-        position: absolute;
-        top: 8px;
-        transform: rotate(-45deg);
-        width: 5px;
-        z-index: 1;
-      }
-
-      .f-modal-line {
-        background-color: #a5dc86;
-        border-radius: 2px;
-        display: block;
-        height: 5px;
-        position: absolute;
-        z-index: 2;
-
-        &.f-modal-tip {
-          left: 14px;
-          top: 46px;
-          transform: rotate(45deg);
-          width: 25px;
-        }
-
-        &.f-modal-long {
-          right: 8px;
-          top: 38px;
-          transform: rotate(-45deg);
-          width: 47px;
-        }
-      }
-    }
-
-    // Error icon
-    &.f-modal-error {
-      border-color: #f27474;
-
-      .f-modal-x-mark {
-        display: block;
-        position: relative;
-        z-index: 2;
-      }
-
-      .f-modal-placeholder {
-        border: 4px solid rgba(200, 0, 0, 0.2);
-      }
-
-      .f-modal-line {
-        background-color: #f27474;
-        top: 37px;
-        width: 47px;
-
-        &.f-modal-left {
-          left: 17px;
-          transform: rotate(45deg);
-        }
-
-        &.f-modal-right {
-          right: 16px;
-          transform: rotate(-45deg);
-        }
-      }
-    }
 
     // Warning icon
 
@@ -362,34 +253,6 @@ export const Container = styled.div`
     .f-modal-icon {
       margin-top: 50px;
     }
-  }
-
-  .animateSuccessTip {
-    animation: ${animateSuccessTip} 0.75s;
-  }
-
-  .animateSuccessLong {
-    animation: ${animateSuccessLong} 0.75s;
-  }
-
-  .f-modal-icon.f-modal-success.animate:after {
-    animation: ${rotatePlaceholder} 4.25s ease-in;
-  }
-
-  .f-modal-icon.f-modal-error.animate:after {
-    animation: ${rotatePlaceholder} 4.25s ease-in;
-  }
-
-  .animateErrorIcon {
-    animation: ${animateErrorIcon} 0.5s;
-  }
-
-  .animateXLeft {
-    animation: ${animateXLeft} 0.75s;
-  }
-
-  .animateXRight {
-    animation: ${animateXRight} 0.75s;
   }
 
   .scaleWarning {
