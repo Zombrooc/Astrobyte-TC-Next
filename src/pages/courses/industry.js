@@ -255,7 +255,7 @@ function industry() {
             <div className="card h-100">
               <div className="card-body">
                 <h5 className="card-title">
-                  NR18 - Segurança e Saúde na Construção Cívil
+                  NR18 - Segurança e Saúde na Construção Civil
                 </h5>
                 <p className="card-text">
                   <small className="text-muted">
