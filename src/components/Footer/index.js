@@ -91,7 +91,7 @@ function Footer() {
                 </li>
 
                 <li>
-                  <a href="https://google.com" disabled>
+                  <a href="/sitemap.xml">
                     Sitemap
                   </a>
                 </li>
