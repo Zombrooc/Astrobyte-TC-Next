@@ -73,7 +73,7 @@ export const Container = styled.div`
 `;
 
 export const SuccessMessage = styled.div`
-  position: absolute;
+  position: fixed;
   z-index: 4444;
   top: 5px;
   right: 5px;
