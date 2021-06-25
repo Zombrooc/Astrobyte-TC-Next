@@ -19,20 +19,12 @@ function industry() {
         <h1> Industria </h1>
         <hr />
         <p>
-          Cursos de curta duração para você aprender as funções básicas de uma
-          profissão, se qualificar para o mercado de trabalho ou evoluir na
-          carreira.
-        </p>
-        <p>
-          Saúde é uma área incrível para trabalhar. Os cursos da área de saúde
-          estão sempre figurando entre os mais procurados pelos estudantes. Isso
-          acontece porque eles costumam oferecer certa estabilidade financeira e
-          realização pessoal.
-        </p>
-        <p>
-          A vantagem de escolher nossos crusos na área da saúde é que eles são
-          consideravelmente mais curtos do que uma graduação, com duração entre
-          um ano e meio e dois anos, e têm foco no mercado de trabalho.
+          Quem deseja ingressar rapidamente no mercado de trabalho encontra
+          alternativas interessantes com o auxílio de cursos de qualificação
+          profissional. Nossos cursos têm como objetivo prepará-lo para ocupar
+          cargos operacionais em vagas na indústria relacionadas ao campo de
+          produção. Desta forma, os módulos do curso são organizados para
+          fornecer aos alunos conhecimentos específicos e relacionados à área.
         </p>
 
         <div className="row row-cols-1 row-cols-md-2 g-4">
@@ -220,9 +212,7 @@ function industry() {
               <div className="card-body">
                 <h5 className="card-title">NR10 - Área Classificada</h5>
                 <p className="card-text">
-                  <small className="text-muted">
-                    Carga horária: 40 Horas
-                  </small>
+                  <small className="text-muted">Carga horária: 40 Horas</small>
                 </p>
                 <p
                   className="card-text"
@@ -258,9 +248,7 @@ function industry() {
                   NR18 - Segurança e Saúde na Construção Civil
                 </h5>
                 <p className="card-text">
-                  <small className="text-muted">
-                    Carga horária: 08 Horas
-                  </small>
+                  <small className="text-muted">Carga horária: 08 Horas</small>
                 </p>
                 <p
                   className="card-text"
@@ -296,9 +284,7 @@ function industry() {
                   NR33 - Segurança em Trabalhos Confinados
                 </h5>
                 <p className="card-text">
-                  <small className="text-muted">
-                    Carga horária: 40 Horas
-                  </small>
+                  <small className="text-muted">Carga horária: 40 Horas</small>
                 </p>
                 <p
                   className="card-text"

@@ -211,8 +211,7 @@ export default function Home() {
                     objetivo prepará-lo para ocupar cargos operacionais em vagas
                     na indústria relacionadas ao campo de produção. Desta forma,
                     os módulos do curso são organizados para fornecer aos alunos
-                    conhecimentos específicos relacionados à metrologia,
-                    tecnologia mecânica, leitura e interpretação de desenhos.
+                    conhecimentos específicos e relacionados à área.
                   </p>
                   <br />
                 </div>
