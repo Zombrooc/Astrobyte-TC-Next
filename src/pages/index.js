@@ -189,8 +189,8 @@ export default function Home() {
                     medicamentos, tratamentos, clínicas e hospitais. Portanto,
                     se você está interessado nesta área, saiba que pode escolher
                     um curso no qual você pode entrar no mercado de trabalha na
-                    área de drogarias e farmácias, laboratórios, cuidadores de
-                    idosos, gestão e muito mais.
+                    área de drogarias e farmácias, laboratórios, atendimento
+                    direto ao paciente, gestão e muito mais.
                   </p>
                   <br />
                 </div>
