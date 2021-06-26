@@ -33,7 +33,7 @@ function ContactPage() {
             href="https://www.instagram.com/astrobyte_tc/"
             className="fa fa-instagram"
           ></a>
-          <a href="https://wa.me/5535987073215" className="fa fa-whatsapp"></a>
+          <a href="https://wa.me/5535987073219" className="fa fa-whatsapp"></a>
         </div>
       </Container>
       <Footer />
