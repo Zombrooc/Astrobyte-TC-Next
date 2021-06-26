@@ -25,7 +25,7 @@ function Footer() {
             </address>
             <h2>Contato</h2>
             <address>
-              <a href="https://wa.me/+5535987073215">(35) 98707-3215</a> /
+              <a href="https://wa.me/+5535987073219">(35) 98707-3219</a> /
               3232-6848
             </address>
           </div>
@@ -48,7 +48,7 @@ function Footer() {
                 </li>
 
                 <li>
-                  <a href="https://wa.me/+5535987073215">WhatsApp</a>
+                  <a href="https://wa.me/5535987073219">WhatsApp</a>
                 </li>
               </ul>
             </li>
@@ -57,22 +57,26 @@ function Footer() {
 
               <ul className="nav__ul">
                 <li>
-                  <a href="https://wa.me/5535987073219">Estética</a>
+                  <Link href="/courses/aesthetic">
+                    <a>Estética</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/astrobyte.centrodetreinamento">
-                    Indústria
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://www.instagram.com/astrobyte_tc/">
-                    Informática
-                  </a>
+                  <Link href="/courses/industry">
+                    <a>Indústria</a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="https://wa.me/+5535987073215">Saúde</a>
+                  <Link href="/courses/it">
+                    <a>Informática</a>
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="/courses/health">
+                    <a>Saúde</a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -91,9 +95,7 @@ function Footer() {
                 </li>
 
                 <li>
-                  <a href="/sitemap.xml">
-                    Sitemap
-                  </a>
+                  <a href="/sitemap.xml">Sitemap</a>
                 </li>
               </ul>
             </li>
