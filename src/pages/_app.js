@@ -2,7 +2,6 @@ import React from "react";
 import Head from "next/head";
 
 import GlobalStyles from "../styles/GlobalStyles";
-import "../styles/externalImports.module.css";
 
 function MyApp({ Component, pageProps }) {
   return (
