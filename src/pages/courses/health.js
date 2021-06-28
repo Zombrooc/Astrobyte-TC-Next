@@ -183,7 +183,7 @@ function health() {
                 <h5 className="card-title">Auxiliar de Veterinário</h5>
                 <p className="card-text">
                   <small className="text-muted">
-                    Carga horária: 84 Horas - 8 Meses
+                    Carga horária: 80 Horas - 8 Meses
                   </small>
                 </p>
                 <p
@@ -218,7 +218,7 @@ function health() {
                 <h5 className="card-title">Curso de Banho e Tosa</h5>
                 <p className="card-text">
                   <small className="text-muted">
-                    Carga horária: 84 Horas - 8 Meses
+                    Carga horária: 80 Horas - 8 Meses
                   </small>
                 </p>
                 <p
