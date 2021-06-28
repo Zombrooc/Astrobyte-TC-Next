@@ -138,6 +138,116 @@ function health() {
               </a>
             </div>
           </div>
+          <div className="col">
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">
+                  Curso Auxiliar á Saúde e Cuidadores de Idosos
+                </h5>
+                <p className="card-text">
+                  <small className="text-muted">
+                    Carga horária: 160 Horas - 1 Ano e 6 Meses
+                  </small>
+                </p>
+                <p
+                  className="card-text"
+                  style={{
+                    color: "var(--color-attention)",
+                    fontSize: "15px",
+                    marginBottom: "15px",
+                  }}
+                >
+                  Vagas Limitadas
+                </p>
+                <p className="card-text">
+                  Esse Curso trás o beneficio de aprender a cuidar de idosos e
+                  pessoas dependentes fisicamente do outro. Você ira aprender
+                  sobre alimentação, banho de leito, curativos, injetáveis
+                  subcutâneas, aferir pressão, ate fisioterapia com recursos
+                  caseiros, cuidados com medicamentos e outros. Aprendera como
+                  lidar com o psicológico do paciente e o seu para ser um
+                  cuidador.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/5535987073219"
+                className="card-footer callToAction"
+              >
+                Saiba Mais
+              </a>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">Auxiliar de Veterinário</h5>
+                <p className="card-text">
+                  <small className="text-muted">
+                    Carga horária: 84 Horas - 8 Meses
+                  </small>
+                </p>
+                <p
+                  className="card-text"
+                  style={{
+                    color: "var(--color-attention)",
+                    fontSize: "15px",
+                    marginBottom: "15px",
+                  }}
+                >
+                  Vagas Limitadas
+                </p>
+                <p className="card-text">
+                  Auxiliar Veterinário é uma formação completa voltada para área
+                  clínica que prepara o aluno para trabalhar auxiliando o Médico
+                  Veterinário. O aluno será capacitado para trabalhar em
+                  hospitais, laboratórios ou clínicas veterinárias, além é claro
+                  de poder empreender e abrir seu próprio negócio na área.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/5535987073219"
+                className="card-footer callToAction"
+              >
+                Saiba Mais
+              </a>
+            </div>
+          </div>
+          <div className="col">
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">Curso de Banho e Tosa</h5>
+                <p className="card-text">
+                  <small className="text-muted">
+                    Carga horária: 84 Horas - 8 Meses
+                  </small>
+                </p>
+                <p
+                  className="card-text"
+                  style={{
+                    color: "var(--color-attention)",
+                    fontSize: "15px",
+                    marginBottom: "15px",
+                  }}
+                >
+                  Vagas Limitadas
+                </p>
+                <p className="card-text">
+                  Os bichos de estimação estão, cada vez mais, sendo
+                  considerados como membros da família, contribuindo para o
+                  crescimento do mercado de higiene e estética de cães e gatos.
+                  Portanto, para se alcançar um empreendimento de destaque é
+                  preciso comprometimento e responsabilidade com os cuidados e
+                  as necessidades exigidas por esses animais.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/5535987073219"
+                className="card-footer callToAction"
+              >
+                Saiba Mais
+              </a>
+            </div>
+          </div>
         </div>
         <div>
           <br />
