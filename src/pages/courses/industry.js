@@ -210,7 +210,9 @@ function industry() {
           <div className="col">
             <div className="card h-100">
               <div className="card-body">
-                <h5 className="card-title">NR10 - Área Classificada</h5>
+                <h5 className="card-title">
+                  NR10 - Segurança em instalação e serviços em Eletricidade
+                </h5>
                 <p className="card-text">
                   <small className="text-muted">Carga horária: 40 Horas</small>
                 </p>
@@ -245,7 +247,8 @@ function industry() {
             <div className="card h-100">
               <div className="card-body">
                 <h5 className="card-title">
-                  NR18 - Segurança e Saúde na Construção Civil
+                  NR18 - Condições e Meio Ambiente de Trabalho na Indústria da
+                  Construção
                 </h5>
                 <p className="card-text">
                   <small className="text-muted">Carga horária: 08 Horas</small>
@@ -352,7 +355,7 @@ function industry() {
             <div className="card h-100">
               <div className="card-body">
                 <h5 className="card-title">
-                  Operador de Pá Carragedeira e Retroescavadeira
+                  Operador de Pá Carragadeira e Retroescavadeira
                 </h5>
                 <p className="card-text">
                   <small className="text-muted">
