@@ -129,7 +129,7 @@ export default function Home() {
             </Link>
           </CourseItem>
           <CourseItem gridArea="FiftyCourse">
-            <Link href="/courses/industry">
+            <Link href="/courses/nrs">
               <a>
                 <FaHardHat />
                 <span> Normas Regulamentadoras </span>
